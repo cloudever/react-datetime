@@ -6,7 +6,7 @@ var assign = require('object-assign'),
 	moment = require('moment'),
 	React = require('react'),
 	CalendarContainer = require('./src/CalendarContainer'),
-	onClickOutside = require('react-onclickoutside').default
+	onClickOutside = require('react-onclickoutside')
 	;
 
 var viewModes = Object.freeze({
